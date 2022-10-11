@@ -2,7 +2,7 @@
   gather_facts: false
   vars:
     local_bucket_name: "october10seanc"
-    region: "us-east-1"
+    ec2_region: "us-east-1"
   tasks:
     - name: Create a simple S3 bucket with public access block configuration
       amazon.cloud.s3_bucket:
