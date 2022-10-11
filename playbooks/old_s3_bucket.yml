@@ -1,0 +1,21 @@
+- hosts: localhost
+  gather_facts: false
+  tasks:
+  vars:
+    local_bucket_name: october102022
+  tasks:
+    - name: Create a simple S3 bucket with public access block configuration
+      amazon.aws.s3_bucket:
+        state: present
+        name: "{{ local_bucket_name }}"
+        public_access:
+          block_public_acls: true
+          block_public_policy: true
+          ignore_public_acls: true
+          restrict_public_buckets: true
+      register: _result_create
+
+    - name: Gather information about the S3 bucket
+      community.aws.aws_s3_bucket_info:
+        name: "{{ local_bucket_name }}"
+      register: _result_info
