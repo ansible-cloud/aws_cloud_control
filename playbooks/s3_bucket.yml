@@ -1,6 +1,5 @@
 - hosts: localhost
   gather_facts: false
-  tasks:
   vars:
     local_bucket_name: "october10seanc"
   tasks:
