@@ -2,10 +2,12 @@
   gather_facts: false
   tasks:
   vars:
-    local_bucket_name: october102022
+    local_bucket_name: october2022
+    ec2_region: "us-east-1"
   tasks:
     - name: Create a simple S3 bucket with public access block configuration
       amazon.aws.s3_bucket:
+        ec2_region: "{{ ec2_region }}"
         state: present
         name: "{{ local_bucket_name }}"
         public_access:
@@ -18,4 +20,5 @@
     - name: Gather information about the S3 bucket
       community.aws.aws_s3_bucket_info:
         name: "{{ local_bucket_name }}"
+        ec2_region: "{{ ec2_region }}" 
       register: _result_info

@@ -11,14 +11,14 @@
         bucket_name: "{{ local_bucket_name }}"
         public_access_block_configuration:
           block_public_acls: true
-          block_public_policy: true
           ignore_public_acls: true
-          restrict_public_buckets: true
+          block_public_policy: false
+          restrict_public_buckets: false
       register: _result_create
 
-    - name: Gather information about the S3 bucket
-      amazon.cloud.s3_bucket:
-        region: "{{ ec2_region }}"
-        state: get
-        bucket_name: "{{ local_bucket_name }}"
-      register: _result_info
+    # - name: Gather information about the S3 bucket
+    #   amazon.cloud.s3_bucket:
+    #     region: "{{ ec2_region }}"
+    #     state: get
+    #     bucket_name: "{{ local_bucket_name }}"
+    #   register: _result_info

@@ -1,0 +1,15 @@
+- hosts: localhost
+  gather_facts: false
+  vars:
+    local_bucket_name: "ansiblefest"
+    ec2_region: "us-east-2"
+    trail_name: "sean-test"
+  tasks:
+    - name: Create a simple S3 bucket with public access block configuration
+      amazon.cloud.cloudtrail_trail:
+        trail_name: "{{ trail_name }}"
+        region: "{{ ec2_region }}"
+        is_logging: true
+        state: present
+        s3_bucket_name: "{{ local_bucket_name }}"
+      register: _result_create
