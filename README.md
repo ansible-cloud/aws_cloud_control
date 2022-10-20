@@ -20,6 +20,9 @@ This session will introduce you to the AWS Cloud Control API and what's new in t
 - Sean Cavanaugh - Red Hat Ansible
 - Rahul Sharma - Senior Product Manager, Amazon Web Services (AWS)
 
+Presented on Wednesday, Oct 192:00 PM - 2:45 PM EDT - Room Michigan AB
+Sheraton Grand Chicago Riverwalk
+
 **Presentation**:
 
 [PPTX](Ansiblefest-2022-Exploring-New-Possibilities-with-the-AWS-Ansible-Automation.pptx)
