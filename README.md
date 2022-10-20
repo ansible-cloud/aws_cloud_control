@@ -23,13 +23,13 @@ This session will introduce you to the AWS Cloud Control API and what's new in t
 Presented on Wednesday, Oct 192:00 PM - 2:45 PM EDT - Room Michigan AB
 Sheraton Grand Chicago Riverwalk
 
-**Presentation**:
+## Presentation
 
 Here are the slides from the presentation:
 
 - [PPTX](Ansiblefest-2022-Exploring-New-Possibilities-with-the-AWS-Ansible-Automation.pptx)
 - [PDF](Ansiblefest-2022-Exploring-New-Possibilities-with-the-AWS-Ansible-Automation.pdf)
 
-**Video**
+## Video
 
 [![ansiblefest video](https://img.youtube.com/vi/e5yLyHXYQQ4/0.jpg)](https://www.youtube.com/watch?v=e5yLyHXYQQ4)
