@@ -30,4 +30,4 @@ Sheraton Grand Chicago Riverwalk
 
 **Video**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e5yLyHXYQQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![ansiblefest video](https://img.youtube.com/vi/e5yLyHXYQQ4/0.jpg)](https://www.youtube.com/watch?v=e5yLyHXYQQ4)
