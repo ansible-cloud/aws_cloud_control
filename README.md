@@ -27,7 +27,7 @@ Sheraton Grand Chicago Riverwalk
 
 Here are the slides from the presentation:
 
-- [PPTX](Ansiblefest-2022-Exploring-New-Possibilities-with-the-AWS-Ansible-Automation.pptx)
+- [PPTX](https://github.com/ansible-cloud/aws_cloud_control/blob/main/Ansiblefest-2022-Exploring-New-Possibilities-with-the-AWS-Ansible-Automation.pptx?raw=true)
 - [PDF](Ansiblefest-2022-Exploring-New-Possibilities-with-the-AWS-Ansible-Automation.pdf)
 
 ## Video
